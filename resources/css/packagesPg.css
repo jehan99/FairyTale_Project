@@ -1,0 +1,111 @@
+
+.topic1{
+
+    background-image:
+    linear-gradient(rgba(46, 46, 46, 0.74), rgba(26, 26, 26, 0.76)),
+    url('../images/packBg2.jpg');
+        background-size: cover;        /* Makes image fill the div */
+        background-repeat: no-repeat;  /* Prevents repeating */
+        min-height: 50vh;             /* Full screen height (optional) */
+        filter: blue(100%);   
+        color: white;
+        text-align: center;
+        background-position: 40% 26%;
+        margin-top: -60px;
+       padding-top:25vh;
+}
+
+
+
+
+.wedding-pak{
+margin-top: 60px;
+color: rgb(109, 109, 109);
+}
+
+
+.wedding-pak li {
+margin-bottom: 12px;
+
+}
+
+
+.topic2{
+    background-image:
+    linear-gradient(rgba(46, 46, 46, 0.74), rgba(26, 26, 26, 0.76)),
+    url('../images/packBg3.jpg');
+        background-size: cover;        /* Makes image fill the div */
+        background-position: center;   /* Keeps image centered */
+        background-repeat: no-repeat;  /* Prevents repeating */
+        min-height: 50vh;             /* Full screen height (optional) */
+        filter: blue(100%);   
+        color: white;
+        padding-top: 25vh;
+        text-align: center;
+        background-position: center;
+}
+
+
+.topic3{
+    background-image:
+    linear-gradient(rgba(46, 46, 46, 0.74), rgba(26, 26, 26, 0.76)),
+    url('../images/packBg4.jpg');
+        background-size: cover;        /* Makes image fill the div */
+        background-position: center;   /* Keeps image centered */
+        background-repeat: no-repeat;  /* Prevents repeating */
+        min-height: 50vh;             /* Full screen height (optional) */
+        filter: blue(100%);   
+        color: white;
+        padding-top: 25vh;
+        text-align: center;
+        background-position: center;
+}
+
+
+.topic4{
+    background-image:
+    linear-gradient(rgba(46, 46, 46, 0.74), rgba(26, 26, 26, 0.76)),
+    url('../images/packBg5.jpg');
+        background-size: cover;        /* Makes image fill the div */
+        background-position: center;   /* Keeps image centered */
+        background-repeat: no-repeat;  /* Prevents repeating */
+        min-height: 50vh;             /* Full screen height (optional) */
+        filter: blue(100%);   
+        color: white;
+        padding-top: 25vh;
+        text-align: center;
+        background-position: center;
+}
+
+
+.topic5{
+    background-image:
+    linear-gradient(rgba(46, 46, 46, 0.74), rgba(26, 26, 26, 0.76)),
+    url('../images/pakBg6.jpg');
+        background-size: cover;        /* Makes image fill the div */
+        background-position: center;   /* Keeps image centered */
+        background-repeat: no-repeat;  /* Prevents repeating */
+        min-height: 50vh;             /* Full screen height (optional) */
+        filter: blue(100%);   
+        color: white;
+        padding-top: 25vh;
+        text-align: center;
+        background-position: center;
+}
+
+.line-top{
+    width: 25%;
+    max-width: 600px;     /* optional max width */
+    min-width: 300px;  
+    margin: auto;
+    border: 1px solid  white;
+}
+
+.line-bottom{
+    width: 12%;
+    max-width: 200px;     /* optional max width */
+    min-width: 150px;  
+    margin: auto;
+    border: 1px solid white;
+
+}

@@ -1,0 +1,44 @@
+.about-img-background{
+    background-image:
+    linear-gradient(rgba(114, 114, 114, 0.336), rgba(122, 122, 122, 0.5)),
+    url('../images/aboutusBackground.jpg');
+        background-size: cover;        /* Makes image fill the div */
+        background-position: center;   /* Keeps image centered */
+        background-repeat: no-repeat;  /* Prevents repeating */
+        min-height: 80vh;             /* Full screen height (optional) */
+        margin-top: -90px;
+        filter: blue(100%);   
+        color: white;
+}
+
+
+.about-img-background p{
+    
+    margin-top: 40px;
+    
+}
+
+@media (max-width: 767px) {
+    .about-img-background{
+        background-position: center left;  /* change position */
+        
+    
+    }
+  
+
+}
+
+
+
+.about-sec-2{
+color: gray;
+font-size: 20px;
+
+
+
+p{
+    line-height: 2.1rem;
+    margin-top: 30px;
+}
+}
+

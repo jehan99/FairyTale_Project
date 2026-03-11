@@ -1,0 +1,47 @@
+.img-background{
+    background-image:
+    linear-gradient(rgba(182, 182, 182, 0.5), rgba(68, 67, 67, 0.5)),
+    url('../images/ServicesPgBackground.jpg');
+        background-size: cover;        /* Makes image fill the div */
+        background-position: center;   /* Keeps image centered */
+        background-repeat: no-repeat;  /* Prevents repeating */
+        min-height: 80vh;             /* Full screen height (optional) */
+        margin-top: -90px;
+        filter: blue(100%);   
+        
+
+        display: flex;             /* enable flexbox */
+        flex-direction: column;    /* stack h3 and h5 vertically */
+        justify-content: center;   /* vertical centering */
+        align-items: center;    
+        color: white;
+        padding-top: 60px;
+
+    
+    }
+
+
+    .img-background p{
+        width: 60%;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    
+  
+
+.sec-2 .card{
+    border: none;
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
+    overflow: hidden;
+}
+
+.sec-2 .card:hover {
+    transform: scale(1.08);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+}

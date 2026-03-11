@@ -1,0 +1,122 @@
+.main-navbar {
+    background-color: rgba(128, 128, 128, 0.7); /* Gray transparent */
+    backdrop-filter: blur(5px);
+    transform: translateY(-100%); /* start hidden above */
+    transition: transform 0.9s ease; /* smooth slide */
+    width: 100%;
+    height: 90px;
+    z-index: 9999;
+}
+
+
+/*logo */
+
+.logo{
+    width: 100%;
+    height:100px;
+    object-fit: cover;
+    padding-bottom: 20px;
+    
+}
+
+.navbar-brand img {
+    height: 300px; /* adjust to fit inside your 90px navbar */
+    width: auto;   /* maintain aspect ratio */
+    display: block; /* avoid extra inline spacing */
+}
+
+.main-navbar.show {
+    transform: translateY(0); /* slide into view */
+}
+ 
+.main-navbar .nav-link{
+    color: rgb(255, 255, 255) !important;   /* change to any color you want */
+    margin-left: 35px;
+    font-weight: bold;
+}
+
+
+.navbar .nav-link.active {
+    color: #ffc107 !important;   /* highlight color */
+    font-weight: bold;
+    border-bottom: 2px solid #ffc107;
+}
+
+
+/* Only change background when menu is open */
+.main-navbar .collapse.navbar-collapse.show {
+    background-color: rgba(51, 51, 51, 0.959); /* your desired color */
+    width: 100vw;      /* optional full width */
+    height: 100vh;     /* optional full height */
+    position: fixed;   /* optional full screen */
+    top: 0;
+    left: 0; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 25px;
+    padding-top: 100px;
+    padding-right: 25px;
+
+}
+
+.main-navbar .collapse.navbar-collapse.show .btn-req{
+    left: 20px;
+}
+
+.btn-req{
+    background-color: rgb(104, 153, 148);
+    height: 3.1rem;
+    width: 16rem;
+    border: none;
+    position: relative;
+    right: 100px;
+    color: white;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    .main-navbar .nav-link {
+        white-space: nowrap; /* prevent breaking */
+        margin-left: 25px;   /* reduce space if needed */
+        
+    }
+
+
+    .btn-req {
+        width: auto;          /* allow button to shrink */
+        padding: 0 1rem;      /* flexible padding */
+        margin-left: 130px;    /* space from links */
+        position: relative;   /* remove right:100px */
+        display: inline-block; /* stay in line */
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.btn-req:hover{
+    background-color:rgb(116, 172, 166); ;
+}
+
+
+.main-navbar .btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1050; /* make sure it’s above menu items */
+}
+
+

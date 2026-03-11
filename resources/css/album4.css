@@ -1,0 +1,49 @@
+.album4-background{
+    background-image:
+    linear-gradient(rgba(114, 114, 114, 0.336), rgba(122, 122, 122, 0.5)),
+    url('../images/album4Bg.jpg');
+        background-size: cover;        /* Makes image fill the div */
+        background-repeat: no-repeat;  /* Prevents repeating */
+        min-height: 85vh;             /* Full screen height (optional) */
+        margin-top: -90px;
+        filter: blue(100%);   
+        color: white;
+        background-position: center;
+        padding-top: 400px;
+
+    }
+
+    @media (max-width: 992px) {
+        .album4-background{
+background-position: 40%;
+
+        }
+    }
+    
+    @media (max-width: 768px) { /* small screens and below */
+        .modal-dialog {
+          max-width: 98%;       /* nearly full screen */
+          margin: 0.5rem auto;  /* less margin for bigger modal */
+        }
+      
+        #modalImage {
+          width: 100% !important;          /* fill modal width */
+          max-height: 90vh !important;     /* almost full viewport height */
+          object-fit: contain;  /* keep aspect ratio */
+        }
+      }
+
+    
+
+      @media (max-width: 992px) { /* small screens and below */
+        .modal-dialog {
+          max-width: 98%;       /* nearly full screen */
+          margin: 0.5rem auto;  /* less margin for bigger modal */
+        }
+      
+        #modalImage {
+          width: 100% !important;          /* fill modal width */
+          max-height: 92vh !important;     /* almost full viewport height */
+          object-fit: contain;  /* keep aspect ratio */
+        }
+      }

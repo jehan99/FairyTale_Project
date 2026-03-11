@@ -1,0 +1,23 @@
+.contact-img-background{
+    background-image:
+    linear-gradient(rgba(114, 114, 114, 0.336), rgba(122, 122, 122, 0.5)),
+    url('../images/contactUsbackground.jpg');
+        background-size: cover;        /* Makes image fill the div */
+        background-position: center;   /* Keeps image centered */
+        background-repeat: no-repeat;  /* Prevents repeating */
+        min-height: 80vh;             /* Full screen height (optional) */
+        margin-top: -90px;
+        filter: blue(100%);   
+        color: white;
+}
+
+
+
+.contact-sec-2{
+    color: rgb(95, 115, 122);
+}
+
+.contact-sec-2 a{
+    color: rgb(95, 115, 122);
+    text-decoration: none; 
+}
